@@ -1,0 +1,6 @@
+[submodule "dep/ptl"]
+	path = dep/ptl
+	url = git@github.com:philipplenk/ptl.git
+[submodule "dep/pcl"]
+	path = dep/pcl
+	url = git@github.com:philipplenk/pcl.git
