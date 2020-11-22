@@ -209,7 +209,7 @@ void wrapper<ENGINE_T, IO_T>::setoption_impl(option opt, std::index_sequence<idx
 		}
 	};
 	
-	const auto find_and_parse_option = [&](auto option_id)
+	[[maybe_unused]] const auto find_and_parse_option = [&](auto option_id)
 	{
 		if(opt.name==ENGINE_T::option_list[option_id].name)
 		{

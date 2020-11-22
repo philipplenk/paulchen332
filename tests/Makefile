@@ -1,8 +1,8 @@
-CFLAGS					=	-std=c++17 -Wfatal-errors -Wall -pedantic -Werror -O3 -march=native -flto #-ggdb
+CFLAGS					=	-std=c++17 -Wfatal-errors -Wall -pedantic -Werror -O3 -march=native -flto -ggdb
 INCLUDE_PATH			=	-I../include
-PTL_INCLUDE_PATH		=	-I$(PTL_PATH)
-PCL_INCLUDE_PATH		=	-I$(PCL_PATH)
-PFL_INCLUDE_PATH		=	-I$(PFL_PATH)
+PTL_INCLUDE_PATH		=	-I../dep/ptl/include
+PCL_INCLUDE_PATH		=	-I../dep/pcl/include
+PFL_INCLUDE_PATH		=	
 LIBS					=	-lpthread ../libphilchess.a 
 
 SRCS					=	*.cpp
