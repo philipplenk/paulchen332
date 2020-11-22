@@ -4,7 +4,7 @@ A simple UCI chess engine
 
 ![Engine Logo](https://codemetas.de/images/pchess_logo.png "Isn't it lovely?")
 
-You can learn more about it in [this dedicated blog article](https://codemetas.de/2020/11/18/The-Royal-Game.html)
+You can learn more about it in [this dedicated blog article](https://codemetas.de/2020/11/22/The-Royal-Game.html)
 
 # Building
 
