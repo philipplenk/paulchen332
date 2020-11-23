@@ -1,6 +1,6 @@
 [submodule "dep/ptl"]
 	path = dep/ptl
-	url = git@github.com:philipplenk/ptl.git
+	url = https://github.com/philipplenk/ptl
 [submodule "dep/pcl"]
 	path = dep/pcl
-	url = git@github.com:philipplenk/pcl.git
+	url = https://github.com/philipplenk/pcl
