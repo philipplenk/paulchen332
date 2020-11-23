@@ -94,9 +94,9 @@ namespace philchess
 		public:
 		using score_value_type=int;
 		
-		default_search_control() noexcept = default;
+		default_search_control() = default;
 		
-		default_search_control(const search_parameters& parameters) noexcept:
+		default_search_control(const search_parameters& parameters):
 			default_search_control()
 		{
 			parameters_=parameters;
