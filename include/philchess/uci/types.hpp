@@ -122,6 +122,14 @@ namespace uci
 	inline std::istream& operator>>(std::istream& in, option& opt)
 	{
 		std::string line;
+		
+		in>>line; //skip 'name'
+		if(line!="name")
+		{
+			in.setstate(std::ios_base::failbit);
+			return in;
+		}
+		
 		std::getline(in,line);
 		
 		constexpr std::string_view value_sep=" value ";
