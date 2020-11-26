@@ -28,7 +28,7 @@ namespace engine
 	class paulchen332
 	{
 		public:
-		constexpr static auto name="paulchen332 v0.1"sv;
+		constexpr static auto name="paulchen332 v0.1.1"sv;
 		constexpr static auto authors="Philipp Lenk"sv;
 		inline const static std::array<uci::option_description,1> option_list
 		{{
